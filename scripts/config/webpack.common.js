@@ -8,6 +8,7 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const TerserPlugin = require('terser-webpack-plugin')
 const getCssLoaders = (importLoaders) => [
   isDev ? 'style-loader' : MiniCssExtractPlugin.loader,
+  // 'style-loader',
   {
     loader: 'css-loader',
     options: {
