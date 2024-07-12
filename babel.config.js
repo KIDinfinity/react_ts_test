@@ -14,8 +14,8 @@ module.exports = {
         //   // 开启草案中的polyfill转译
         //   proposals: true,
         // },
-        // 使用es6模块进行
-        modules: false,
+        // 使用es6模块进行(使用jest测试需要将modules配置注释，默认commonjs)
+        modules: 'auto',
         //'false','commonjs', 'amd', 'umd', 'systemjs','auto'
         //测试后false和auto都有tree shaking，最好使用false，es6 module支持，commonjs则不支持，没有tree shaking
       },

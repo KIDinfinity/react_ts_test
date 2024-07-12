@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`hello jest 测试组件快照 1`] = `
+<p
+  className="computed-one"
+>
+  1
+  Hi, I'm computed one, my sum is 3.
+  <button
+    onClick={[Function]}
+  >
+    点击
+  </button>
+</p>
+`;
